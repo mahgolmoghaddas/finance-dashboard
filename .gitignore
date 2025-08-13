@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Dependency directories
+jspm_packages/
+
+# Test and coverage folders
+coverage/
+
+# React Native
+.expo/
+
+# Miscellaneous
+*.tgz
+*.lock
