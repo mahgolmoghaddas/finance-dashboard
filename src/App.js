@@ -4,6 +4,8 @@ import Topbar from "./scenes/global/Topbar";
 import Sidebar from "./scenes/global/Sidebar";
 import Dashboard from "./scenes/dashboard";
  import Team from "./scenes/team";
+ import Form from "./scenes/form";
+ import Calendar from "./scenes/calendar";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 
@@ -23,6 +25,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
                <Route path="/team" element={<Team />} />
+               <Route path="/form" element={<Form/>}/>
+                <Route path="/calendar" element={<Calendar/>}/>
             </Routes>
           </main>
         </div>
